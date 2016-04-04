@@ -1,0 +1,12 @@
+#showPortland {
+  display: none;
+}
+
+.resident {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.resident:hover {
+  text-decoration: underline;
+}
