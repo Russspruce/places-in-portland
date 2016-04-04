@@ -5,14 +5,14 @@
     <link href="styles.css" rel="stylesheet" type="text/css"></link>
     <script src="jquery.js"></script>
     <script src="scripts.js"></script>
-    <title>Address Book</title>
+    <title>Portland Resident Information</title>
   </head>
   <body>
     <div class="container">
-      <h1>Places in Portland</h1>
+      <h1>Portland Resident Information</h1>
       <div class="row">
         <div class="col-md-6">
-          <h2>Add a contact:</h2>
+          <h2>Add info:</h2>
           <form id="newResident">
             <div class="form-group">
               <label for="newName">Name</label>
@@ -27,13 +27,21 @@
               <input type="text" class="form-control" id="newRestaurant">
             </div>
             <div class="form-group">
+              <label for="newBar">Bar</label>
+              <input type="text" class="form-control" id="newBar">
+            </div>
+            <div class="form-group">
               <label for="newEntertainment">Entertainment</label>
               <input type="text" class="form-control" id="newEntertainment">
+            </div>
+            <div class="form-group">
+              <label for="newBridge">Bridge</label>
+              <input type="text" class="form-control" id="newBridge">
             </div>
             <button type="submit" name="btn">Submit</button>
           </form>
 
-          <h2>Info:</h2>
+          <h2>Residents:</h2>
           <ul id="portlandInfo">
 
           </ul>
@@ -46,7 +54,9 @@
             <p>Name: <span class="fullName"></span></p>
             <p>Section: <span class="portlandSection"></span></p>
             <p>Restaurant: <span class="favRestaurant"></span></p>
+            <p>Bar: <span class="favBar"></span></p>
             <p>Entertainment: <span class="favEntertainment"></span></p>
+            <p>Bridge: <span class="favBridge"></span></p>
           </div>
         </div>
 

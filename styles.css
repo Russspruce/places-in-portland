@@ -2,6 +2,14 @@
   display: none;
 }
 
+#showPortland p {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
 .resident {
   cursor: pointer;
   color: #0088cc;
